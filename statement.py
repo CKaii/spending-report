@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #imports bank statement
-statement = pd.read_csv("2018-11-27_transaction_download.csv")
+statement = pd.read_csv("PASTE YOUR BANK STATEMENT CSV HERE")
 pd.set_option("display.max_rows", 125)
 
 #sums total amount spent grouped by category
